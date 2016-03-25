@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{feb6587b-012d-4690-8fa5-a33764925fef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\tcp">
+      <UniqueIdentifier>{0f25c506-49b8-4b0d-8c75-a7713347d3e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="hello.lua" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\byte_buffer.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\byte_buffer_reg.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lua_util.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\register_all_tcp_client.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcp\tcp_client.cpp">
+      <Filter>src\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcp\tcp_client_data.cpp">
+      <Filter>src\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcp\tcp_client_reg.cpp">
+      <Filter>src\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcp\tcp_session.cpp">
+      <Filter>src\tcp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tcp\tcp_session_data.cpp">
+      <Filter>src\tcp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\byte_buffer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\byte_buffer_reg.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_generic.hpp">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lua_util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\register_all_tcp_client.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stream_property.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tcp\tcp_client.h">
+      <Filter>src\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tcp\tcp_client_data.h">
+      <Filter>src\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tcp\tcp_client_reg.h">
+      <Filter>src\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tcp\tcp_session.h">
+      <Filter>src\tcp</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tcp\tcp_session_data.h">
+      <Filter>src\tcp</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
