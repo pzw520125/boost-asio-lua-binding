@@ -74,6 +74,12 @@ namespace net {
 
 		if (m_on_message_ref != LUA_REFNIL)
 		{
+			/*ptr p = this->shared_from_this();
+			cocos2d::Director::getInstance()->getScheduler()->performFunctionInCocosThread([=] {
+				lua_State* L = cocos2d::LuaEngine::getInstance()->getLuaStack()->getLuaState();
+				luautil_call_ref(L, p->m_on_message_ref, (const char*)(buf->data()), buf->size());
+			});*/
+
 			luautil_call_ref(m_lua_state, m_on_message_ref, (const char*)(buf->data()), buf->size());
 		}
 	}
