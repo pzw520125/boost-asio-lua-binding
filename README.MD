@@ -1,4 +1,4 @@
-# boost tcp client
+# boost asio lua binding
 
 A tcp client implementated by boost.asio and binded to lua.
 
