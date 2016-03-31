@@ -21,3 +21,7 @@ you and run `github:shinexia/netty-server`: `io.xgh.netty.demo.simple.DemoServer
 because io\_service is in the different thread to the lua interpretor, i commented out the callbacks.
 
 in cocos2d-x, you can deal with this by `cocos2d::Director::getInstance()->getScheduler()->performFunctionInCocosThread`
+
+# More
+
+<http://xgh.io/blog/boost-asio-lua-binding>
