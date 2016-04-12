@@ -24,4 +24,4 @@ in cocos2d-x, you can deal with this by `cocos2d::Director::getInstance()->getSc
 
 # More
 
-<http://xgh.io/blog/boost-asio-lua-binding>
+<http://www.xgh.io/blog/boost-asio-lua-binding>
